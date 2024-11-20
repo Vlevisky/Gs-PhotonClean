@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navtop">
+        <div class="nav left">
+            <img src="/images/photonclean-01.png" alt="PhotonClean Logo">
+        </div>
+        <div class="nav right">
+            <a href="../Page/page.html">Início</a>
+            <p>|</p>
+            <a href="#">Sobre nós</a>
+            <p>|</p>
+            <a href="#">Nossa solução</a>
+            <p>|</p>
+            <a href="../contato/contato.html">Contato</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Fale Conosco</h1>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="phone">Número de Telefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Digite seu número" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+            <div class="form-group">
+                <label for="complaint">Reclamação:</label>
+                <textarea id="complaint" name="complaint" placeholder="Digite sua reclamação" rows="4" required></textarea>
+            </div>
+
+            <button type="submit">Enviar Reclamação</button>
+        </form>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="/images/photonclean-01.png" alt="PhotonClean Logo" class="footer-logo">
+                <p>PhotonClean - Energia mais limpa e sustentável.</p>
+            </div>
+
+            <div class="footer-right">
+                <nav class="footer-nav">
+                    <a href="../Page/page.html">Início</a>
+                    <a href="#">Sobre nós</a>
+                    <a href="#">Nossa solução</a>
+                    <a href="../contato/Contato.html">Contato</a>
+                </nav>
+                <div class="footer-contact">
+                    <p><strong>Contato:</strong> contato@photonclean.com</p>
+                    <p><strong>Telefone:</strong> +55 (11) 98765-4321</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PhotonClean. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
