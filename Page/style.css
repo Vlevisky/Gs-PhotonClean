@@ -43,6 +43,13 @@ body {
     position: relative;
     gap:100px;
 }   
+.navtop a:hover{
+    transition: all 0.2s ease;
+    background-color: #FFAE00;
+    padding: 5px;
+    border-radius: 20px;
+
+}
 
 .navtop > div {
     flex-shrink:0;
@@ -71,6 +78,30 @@ body {
     text-decoration-thickness: 2px;
 }
 
+.container {
+    background: linear-gradient(135deg, #1c84a3, #e1f5fe);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    
+    max-width: 500px;
+    text-align: center;
+    
+    margin-bottom: 40px; 
+    flex-grow: 1; 
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+html{
+    scroll-behavior: smooth;
+}
 .top-text {
     font-size: 5rem;
     font-weight: 450;
@@ -114,9 +145,9 @@ body {
     display: flex;
     justify-content: center;
     padding: 50px;
-    
-    
+     
 }
+
 
 .left-bellow img{
     width: 550px;
@@ -182,8 +213,8 @@ body {
 
 
 .container img{
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     
 }
 .perks{
@@ -204,8 +235,9 @@ body {
 
 .container p{
     text-align: center;
-    width: 200px;
-    color: white ;
+    width: 300px;
+    padding: 10px;
+    color: rgb(0, 0, 0) ;
 }
 
 /*.space{
@@ -240,6 +272,7 @@ body {
     max-width: 300px;
 }
 
+
 .footer-left img {
     width: 150px;
     margin-bottom: 10px;
@@ -272,6 +305,33 @@ body {
 .footer-contact p {
     margin: 0;
     line-height: 1.5;
+}
+.sobrenos{
+    height: 65vh;
+    width: 100vw;;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: center;
+    align-items: center;
+    
+}
+.sobrenos-text{
+    background-color: #FFAE00;
+    padding: 20px;
+    color: black;
+    font-weight: 500;
+
+    border-radius: 20px;
+}
+.sobrenos p{
+    font-size: 20px;
+    width: 750px;
+}
+.sobrenos h1{
+    color: #FFAE00;
+    font-size: 40px;
 }
 
 .footer-bottom {
